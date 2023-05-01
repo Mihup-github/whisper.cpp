@@ -101,7 +101,7 @@ static void byteswap_tensor(ggml_tensor * tensor) {
 #define WHISPER_PRINT_DEBUG(...)
 #endif
 
-define WHISPER_USE_FLASH_ATTN
+#define WHISPER_USE_FLASH_ATTN
 //#define WHISPER_USE_FLASH_FF
 #define WHISPER_MAX_DECODERS 16
 
